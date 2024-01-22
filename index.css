@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(29, 37, 44);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px lightcoral;
+    margin: 15vh auto 15vh auto;
+    font-family: 'garamond', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-to-guess{
+    font-size: 2rem;    
+    letter-spacing: 25px;
+    word-spacing: 60px;
+    margin: 80px auto;
+}
+
+#letters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+#attempts-left{
+    font-family: 'caveat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin-top: 10vh;
+    color: lightcoral
+}
+
+.letterDiv{
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: azure;
+    color: black;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-family: 'caveat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+
+input{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#victory-info{
+    margin: 80px auto;
+    font-size: 3rem;
+}
+
+input[type=text]{
+    margin: 0 20px 0 64px;
+}

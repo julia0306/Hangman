@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Hangman</h1>
+    <form>
+    <label for="inputField">Enter a word or a short sentence :</label>
+    <input type="text" id="inputField">
+    <input type="submit" value="send" id="textSubmit">
+    </form>
+    <div id="game-content">
+        <p id="text-to-guess"></p>
+        <div id="letters"></div>
+        <p id="attempts-left"></p>
+        <p id="victory-info"></p>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
