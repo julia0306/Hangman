@@ -120,7 +120,7 @@ function resetGame() {
 // Je vérifie s'il y a victoire, càd si l'ensemble des lettres trouvées correspondent exactement à l'expression initialement saisie
 function checkForVictory() {
     if (isNewWordSubmitted && result.join('') === inputText) {
-        victoryInfo.textContent="Bravo, vous avez gagné"
+        victoryInfo.textContent="You have won, O Galilean. "
         attemptsDisplay.style.display='none';
         isNewWordSubmitted=false;
     }else
@@ -133,7 +133,7 @@ function checkForVictory() {
 
 function declareDefeat(){
     if(attemptsLeft==0){
-        attemptsDisplay.textContent="Dommage, vous avez perdu".toUpperCase();
+        attemptsDisplay.textContent="There are some defeats more triumphant than victories.".toUpperCase();
         textSubmit.removeEventListener();
 
         
